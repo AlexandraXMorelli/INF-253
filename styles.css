@@ -25,3 +25,31 @@ p img {
   margin-left: 20px;
   margin-bottom: 20px;
 }
+
+nav ul {
+  background-color: LightGray;
+  display: inline-block;
+  border: 2px solid Gray;
+  padding: 5px;
+  list-style: none;
+  padding-left: 2;
+}
+nav ul li {
+
+}
+
+nav ul li a {
+  color: DarkRed;
+  text-decoration: none;
+  padding: 8px;
+  border-bottom: 1px solid gray;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: Gray;
+}
+
+nav ul li:last-child a {
+  border-bottom: none;
+}
