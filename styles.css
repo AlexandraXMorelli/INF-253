@@ -1,15 +1,54 @@
-h1 {
-  color: #6B39A6;
+
+/*color scheme
+#E27161 - coral color
+#F3B4A9 - light coral color
+#F3E7BF - sunshine yellow
+#C9EEBD - light spring green
+#57DAC7 - turquoise
+*/
+h1#site-title {
+  color: #E27161;
   font-family: georgia;
   font-weight: 800;
-  background: lavender;
+  background: #F3B4A9 ;
+  font-size: 72px;
 }
 
+h1#article-title {
+  font-size: 50px;
+}
+
+figure.main-image {
+background: #F3E7BF;
+border-color: #E27161;
+color: #F3E7BF
+}
+figure.section-image {
+float: right;
+margin-left: 20px;
+margin-bottom: 30px;
+max-width: 320px;
+background: #57DAC7;
+border-color: #E27161;
+}
+
+figure.section-image.odd {
+float: right;
+margin-left:20px;
+margin-bottom: 30px;
+max-width: 320px;
+
+}
+figure.section-image.even {
+float: left;
+margin-right:20px;
+}
 p {
   background-color: #F68176;
 }
 
 figure {
+  width: 100%;
   border: 1px solid black;
   padding: 30px;
 }
@@ -27,9 +66,9 @@ p img {
 }
 
 nav ul {
-  background-color: LightGray;
+  background-color: #C9EEBD;
   display: inline-block;
-  border: 2px solid Gray;
+  border: 2px solid #57DAC7;
   padding: 5px;
   list-style: none;
   padding-left: 2;
@@ -39,15 +78,15 @@ nav ul li {
 }
 
 nav ul li a {
-  color: DarkRed;
+  color: Blue;
   text-decoration: none;
   padding: 8px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #57DAC7;
   display: block;
 }
 
 nav ul li a:hover {
-  background-color: Gray;
+  background-color: #57DAC7;
 }
 
 nav ul li:last-child a {
