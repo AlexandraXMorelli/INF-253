@@ -59,6 +59,14 @@ p img {
   margin-bottom: 20px;
 }
 
+nav ul {
+  background-color: #c9e8fd;
+  display: inline-block;
+  border: 2px solid ##526d85;
+  padding: 5px;
+  list-style: none;
+  padding-left: 2;
+}
 
 nav ul li a {
   color: #526d85;
