@@ -7,10 +7,10 @@
 #4e4466 - purple
 */
 h1#site-title {
-  color: #E27161;
-  font-family: georgia;
-  font-weight: 800;
-  background: #F3B4A9 ;
+  color: #526d85;
+  font-family: helvetica;
+  font-weight: 500;
+  background: #b8acd1;
   font-size: 72px;
 }
 
@@ -19,17 +19,17 @@ h1#article-title {
 }
 
 figure.main-image {
-background: #F3E7BF;
-border-color: #E27161;
-color: #F3E7BF
+background: #b8acd1;
+border-color: #4e4466;
+color: #b8acd1
 }
 figure.section-image {
 float: right;
 margin-left: 20px;
 margin-bottom: 30px;
 max-width: 320px;
-background: #57DAC7;
-border-color: #E27161;
+background: #b8acd1;
+border-color: #526d85;
 }
 
 figure.section-image.odd {
@@ -44,7 +44,7 @@ float: left;
 margin-right:20px;
 }
 p {
-  background-color: #F68176;
+  background-color: #e2d5f1;
 }
 
 figure {
@@ -66,9 +66,9 @@ p img {
 }
 
 nav ul {
-  background-color: #C9EEBD;
+  background-color: #c9e8fd;
   display: inline-block;
-  border: 2px solid #57DAC7;
+  border: 2px solid #526d85;
   padding: 5px;
   list-style: none;
   padding-left: 2;
@@ -81,12 +81,12 @@ nav ul li a {
   color: Blue;
   text-decoration: none;
   padding: 8px;
-  border-bottom: 1px solid #57DAC7;
+  border-bottom: 1px solid #c9e8fd;
   display: block;
 }
 
 nav ul li a:hover {
-  background-color: #57DAC7;
+  background-color: #c9e8fd;
 }
 
 nav ul li:last-child a {
