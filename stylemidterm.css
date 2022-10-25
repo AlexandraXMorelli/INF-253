@@ -8,7 +8,7 @@
 */
 h1#site-title {
   color: #526d85;
-  font-family: helvetica;
+  font-family: georgia;
   font-weight: 500;
   background: #b8acd1;
   font-size: 72px;
@@ -22,14 +22,6 @@ figure.main-image {
 background: #b8acd1;
 border-color: #4e4466;
 color: #b8acd1
-}
-figure.section-image {
-float: right;
-margin-left: 20px;
-margin-bottom: 30px;
-max-width: 320px;
-background: #b8acd1;
-border-color: #526d85;
 }
 
 figure.section-image.odd {
