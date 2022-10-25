@@ -48,15 +48,15 @@ border-color: #526d85;
 }
 
 figure img {
-  width: 40%;
+  width: 100%;
   height:auto;
 }
 
 p img {
   float: right;
-  max-width: 50%;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  max-width: 100%;
+  margin-left: 400px;
+  margin-bottom: 300px;
 }
 
 nav ul {
