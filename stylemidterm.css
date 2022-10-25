@@ -82,7 +82,7 @@ nav ul li a:hover {
 nav ul li:last-child a {
   border-bottom: none;
 }
-p#footnotes {
+nav#footnotes {
   color: #4e4466;
   font-family: helvetica;
 }
