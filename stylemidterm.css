@@ -22,6 +22,7 @@ figure.main-image {
 background: #b8acd1;
 border-color: #4e4466;
 color: #b8acd1
+width: 100%;
 }
 
 figure.section-image.odd {
@@ -47,10 +48,7 @@ background: #b8acd1;
 border-color: #526d85;
 }
 
-figure img {
-  width: 100%;
-  height:auto;
-}
+
 
 p img {
   float: right;
@@ -83,4 +81,8 @@ nav ul li a:hover {
 
 nav ul li:last-child a {
   border-bottom: none;
+}
+p#footnotes {
+  color: #4e4466;
+  font-family: helvetica;
 }
