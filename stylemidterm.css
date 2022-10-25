@@ -69,10 +69,10 @@ nav ul {
 }
 
 nav ul li a {
-  color: #526d85;
+  color: #b8acd1;
   text-decoration: none;
   padding: 8px;
-  border-bottom: 1px solid #c9e8fd;
+  border-bottom: 1px solid #526d85;
   display: block;
 }
 
