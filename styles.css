@@ -23,21 +23,27 @@ background: #F3E7BF;
 border-color: #E27161;
 color: #F3E7BF
 }
+
+@media all and (min-width: 768px) {
+  figure.section-image {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  max-width: 320px;
+  }
+}
 figure.section-image {
-float: right;
-margin-left: 20px;
-margin-bottom: 30px;
-max-width: 320px;
 background: #57DAC7;
 border-color: #E27161;
 }
 
-figure.section-image.odd {
-float: right;
-margin-left:20px;
-margin-bottom: 30px;
-max-width: 320px;
-
+@media all and (min-width: 768px) {
+  figure.section-image.odd {
+    float: right;
+    margin-left:20px;
+    margin-bottom: 30px;
+    max-width: 320px;
+  }
 }
 figure.section-image.even {
 float: left;
@@ -51,6 +57,10 @@ figure {
   width: 100%;
   border: 1px solid black;
   padding: 30px;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 figure img {
@@ -73,6 +83,15 @@ nav ul {
   list-style: none;
   padding-left: 2;
 }
+
+@media all and (min-width:376px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
 nav ul li {
 
 }
