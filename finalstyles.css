@@ -1,0 +1,134 @@
+/*color scheme
+#7FFF00 - charteuse (light)
+#006400 - dark green (dark)
+#8F9779 - olive (dark)
+#20B2AA - light sea green (medium)
+#008B8B - dark cyan (dark)
+*/
+
+#message {
+  background: #8F9779;
+  border: 2px solid;
+  padding: 25px 30px;
+  margin: 20px 0;
+}
+
+body.dark-mode {
+  background: #010101;
+  color: white
+}
+body.dark-mode #message {
+  background: gray;
+}
+#message button {
+  float: right;
+}
+
+h1#site-title {
+  color: #008B8B;
+  font-family: georgia;
+  font-weight: 800;
+  background: #7FFF00 ;
+  font-size: 72px;
+}
+
+h1#article-title {
+  font-size: 50px;
+}
+
+
+figure.main-image {
+background: #20B2AA;
+border-color: #008B8B;
+color: #20B2AA
+}
+figure.main-image img {
+  width: 50%;
+  height: auto;
+}
+
+@media all and (min-width: 768px) {
+  figure.section-image {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  max-width: 320px;
+  }
+}
+figure.section-image {
+background: #20B2AA;
+border-color: #008B8B;
+}
+
+@media all and (min-width: 768px) {
+  figure.section-image.odd {
+    float: right;
+    margin-left:20px;
+    margin-bottom: 30px;
+    max-width: 320px;
+  }
+}
+figure.section-image.even {
+float: left;
+margin-right:20px;
+}
+p {
+  background-color: #8F9779;
+}
+
+figure {
+  width: 80%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+figure img {
+  width: 80%;
+  height: auto;
+}
+
+
+p img {
+  float: right;
+  max-width: 60%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  background-color: #C9EEBD;
+  display: inline-block;
+  border: 2px solid #20B2AA;
+  padding: 5px;
+  list-style: none;
+  padding-left: 2;
+}
+
+@media all and (min-width:376px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+nav ul li a {
+  color: #006400;
+  text-decoration: none;
+  padding: 8px;
+  border-bottom: 1px solid #20B2AA;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #20B2AA;
+}
+
+nav ul li:last-child a {
+  border-bottom: none;
+}
+
+nav#footnotes {
+  color: #4e4466;
+  font-family: helvetica;
+}
